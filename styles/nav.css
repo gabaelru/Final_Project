@@ -1,0 +1,202 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+.navigation-wrapper{
+    display: flex;
+    height: 75px;
+    width: 1000px;
+}
+
+.navigation-wrapper > .logo-column{
+    margin: 20px;
+}
+
+.navigation-wrapper > .logo-column > .banner-image img{
+    width: 180px;
+}
+
+.navigation-wrapper > .nav-column{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+}
+
+.navigation-wrapper > .nav-column > .explore-text{
+    text-transform: uppercase;
+    color: #f4e17f;
+}
+
+.navigation-wrapper > .nav-column > .links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link{
+    margin-right: 20px;
+}
+.links-wrapper > .nav-link a{
+    font-size: 1.4em;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation-wrapper > .spark-column{
+    margin-left: 20px;
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+    color: #777777;
+}
+
+.navigation-wrapper > .spark-column > .spark-drop-down{
+    margin-top: 20px;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.navigation-wrapper > .spark-column > .icon{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.navigation-wrapper > .btn-column{
+    display: flex;
+    align-items: center;
+}
+
+.btn-nav{
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    background-color: #777777;
+    color: white;
+    border: 1px solid #777777;
+}
+
+.find i{
+    color: #777777;
+    background-color: black;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.btn-nav i{
+    background-color: #777777;
+    color: lightgreen;
+}
+
+.body-wrapper {
+    background: linear-gradient(90deg, #737375 0%, #686869 0%, #030303 100%);
+    color: #cccccc;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.body-wrapper > .content-wrapper{
+    padding: 60px 50px;
+}
+
+.body-wrapper > .content-wrapper > .text-wrapper > .text-one{
+    font-size: 2.5em;
+}
+
+.body-wrapper > .content-wrapper > .text-wrapper > .text-one > .text-white{
+    font-weight: 5600;
+    color: white;
+}
+
+.body-wrapper > .content-wrapper > .text-wrapper > .text-two{
+    font-size: 2em;
+    padding: 20px 0px;
+    color: #999999;
+}
+
+.body-wrapper > .content-wrapper > .buttons-wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    column-gap: 20px;
+}
+
+.body-wrapper > .content-wrapper > .buttons-wrapper > .button-wrapper > .sign-up-free{
+    background-color: #2fb45a;
+    border: none;
+    border-radius: 3px;
+    width: 225px;
+    height: 60px;
+    font-size: 1.5em;
+}
+
+.body-wrapper > .content-wrapper > .buttons-wrapper > .button-wrapper > .learn-more{
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    border-radius: 3px;
+    width: 175px;
+    height: 60px;
+    font-size: 1.5em;
+}
+
+.body-wrapper > .project-wrapper{
+    padding-top: 60px;
+}
+
+.body-wrapper > .project-wrapper > .label-wrapper{
+    padding-left: 10px;
+}
+
+.body-wrapper > .project-wrapper > .label-wrapper > .label{
+    color: #ffffff;
+}
+
+.body-wrapper > .project-wrapper > .label-wrapper > .label > .blue-link{
+    text-decoration: none;
+    color: #00e6f5;
+}
+
+.body-wrapper > .project-wrapper > .project-image-wrapper{
+    padding-top: 8px;
+}
+
+.body-wrapper > .project-wrapper > .project-image-wrapper > .project-image-container > .project-image{
+    height: 406px;
+    margin-bottom: -4px;
+}
+
+.footer-wrapper{
+    background: #505051;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.footer-wrapper > .codePen-link-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #606060;
+}
+
+.footer-wrapper > .codePen-link-wrapper a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.footer-wrapper > .codePen-link-wrapper > a > .bold-text{
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
